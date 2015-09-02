@@ -11,101 +11,15 @@ struct TreeNode{
 	TreeNode *right;
 	TreeNode(int x) :val(x), left(NULL), right(NULL){}
 };
-struct rR{
-	int isEqual;
-	int val;
-	rR(int i, int x) :isEqual(i), val(x){}
-	rR(){}
-};
 
 class Solution {
 public:
 	TreeNode* lowestCommonAncestor(TreeNode* root, TreeNode* p, TreeNode* q) {
-		this->p = p;
-		this->q = q;
-		this->notFind = true;
-		this->find = root;
-		recurseSearch(root);
-		return this->find;
-	}
-	rR recurseSearch(TreeNode* root){
-			if (root != NULL){
-				vector<rR> f;
-				f.push_back(rR(0, 0));
-				f.push_back(rR(0, 0));
-				f.push_back(rR(0, 0));
-				//rR center(0,0);
-				if (root->val == p->val){
-					f[0].val = p->val;
-					f[0].isEqual = 1;
-				}
-				if (root->val == q->val){
-					f[0].isEqual = 1;
-					f[0].val = q->val;
-				}
 
-				//rR left
-				f[1]= recurseSearch(root->left);
-				//rR right 
-				f[2]= recurseSearch(root->right);
 
-				int sum =f[0].isEqual + f[1].isEqual + f[2].isEqual;
-				if (sum == 0){
-					return rR(0, 0);
-				}else if (sum == 1){
-					if (f[0].isEqual == 1)
-						return f[0];
-					if (f[1].isEqual == 1)
-						return f[1];
-					if (f[2].isEqual == 1)
-						return f[2];
-				}else if (sum == 2){
-					vector<rR> rrr;
-					for (int i = 0; i < 3; i++){
-						if (f[i].isEqual == 1)
-							rrr.push_back(f[i]);
-					}
-					if (rrr[0].val != rrr[1].val){
-						if (notFind){
-						notFind = false;
-						find = root;
-						return rR(0, 0);
-						}
-					}
-					else{
-						return rrr[0];
-					}
-				}else if (sum == 3){
-					if (f[0].val != f[1].val){
-						if (notFind){
-						notFind = false;
-						find = root;
-						return rR(0, 0);
-						}
-					}
-					else{
-						if (f[1].val != f[2].val){
-							if (notFind){
-							notFind = false;
-							find = root;
-							return rR(0, 0);
-							}
-						}
-						else{
-							return f[0];
-						}
-					}
-				}
-			}
-			else{
-				return rR(false, 0);
-			}
 	}
-	TreeNode* p;
-	TreeNode* q;
-	TreeNode* find;
-	bool notFind;
 };
+
 class tree{
 public:
 	TreeNode* createNode(int num, vector<string> &treenode){
