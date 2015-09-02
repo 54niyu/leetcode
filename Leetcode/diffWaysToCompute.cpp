@@ -16,7 +16,6 @@ enum Type{
 enum Ope{
 	Plus,
 	Minus,
-	//
 	Mul,
 };
 
