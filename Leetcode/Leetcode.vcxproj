@@ -81,12 +81,16 @@
     <ClCompile Include="diffWaysToCompute.cpp" />
     <ClCompile Include="kthSmallest.cpp" />
     <ClCompile Include="lowestCommonAncestor.cpp" />
+    <ClCompile Include="majorityElement.cpp" />
     <ClCompile Include="numberOfDigitOne.cpp" />
     <ClCompile Include="productExceptSelf.cpp" />
     <ClCompile Include="searchMatrix.cpp" />
     <ClCompile Include="searchMatrix2.cpp" />
     <ClCompile Include="timeCompute.cpp" />
     <ClCompile Include="treeOrder.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="leetcode.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

@@ -42,5 +42,13 @@
     <ClCompile Include="kthSmallest.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="majorityElement.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="leetcode.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>
