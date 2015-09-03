@@ -139,18 +139,18 @@ void postOrder(TreeNode* root){
 
 }
 
-int main(){
-	tree tr;
-	TreeNode* tree = tr.initTree("42,10,11,60,77,null,50,98,88,99,100");
-	TreeNode* tree2 = tr.initTree("1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19");
-
-	preOrder(tree);
-	inOrder(tree);
-	postOrder(tree);
-	preOrder(tree2);
-	inOrder(tree2);
-	postOrder(tree2);
-
-
-	return 0;
-}
+//int main(){
+//	tree tr;
+//	TreeNode* tree = tr.initTree("42,10,11,60,77,null,50,98,88,99,100");
+//	TreeNode* tree2 = tr.initTree("1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19");
+//
+//	preOrder(tree);
+//	inOrder(tree);
+//	postOrder(tree);
+//	preOrder(tree2);
+//	inOrder(tree2);
+//	postOrder(tree2);
+//
+//
+//	return 0;
+//}

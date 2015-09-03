@@ -79,6 +79,7 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="diffWaysToCompute.cpp" />
+    <ClCompile Include="kthSmallest.cpp" />
     <ClCompile Include="lowestCommonAncestor.cpp" />
     <ClCompile Include="numberOfDigitOne.cpp" />
     <ClCompile Include="productExceptSelf.cpp" />
