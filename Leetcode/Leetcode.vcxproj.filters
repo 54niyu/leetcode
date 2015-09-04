@@ -45,6 +45,12 @@
     <ClCompile Include="majorityElement.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="calculater.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="countCompleteTree.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="leetcode.h">
