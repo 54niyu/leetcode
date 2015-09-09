@@ -5,9 +5,28 @@ public:
 	int findKthLargest(vector<int>& nums, int k) {
 		if (nums.size() == 1)
 			return nums[0];
-		return heapSort(nums, k);
+		return qSort(nums, k,0,nums.size()-1);
 	}
 private:
+	//¿ìËÙÅÅĞò
+		
+	int qSort(vector<int>& nums, int k, int begin, int end){
+		int wait = begin;
+		for (int i = begin+1; i <= end; i++){
+			if (nums[i] < nums[begin]){
+				swap(nums[++wait], nums[i]);
+			}
+		}
+		if (wait == k){
+			return nums[0];
+		}
+		else if (wait < k){
+			qSort(nums, k, wait + 1, end);
+		}
+		else{
+			qSort(nums, k, begin + 1, wait);
+		}
+	}
 	//¶ÑÅÅĞò
 	int heapSort(vector<int>& nums,int k){
 		int i = nums.size();
@@ -57,7 +76,7 @@ private:
 };
 int main(){
 	Solution s;
-	vector<int> data = { 0,1,2};
+	vector<int> data = { 222,23,1,233,21,23,45,65,1,96,2,4,5,7};
 	for (int i = 1; i <= data.size(); i++){
 		cout<<s.findKthLargest(data,i)<<endl;
 	}
