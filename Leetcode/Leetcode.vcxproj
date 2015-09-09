@@ -81,6 +81,7 @@
     <ClCompile Include="calculater.cpp" />
     <ClCompile Include="countCompleteTree.cpp" />
     <ClCompile Include="diffWaysToCompute.cpp" />
+    <ClCompile Include="findKthLargest.cpp" />
     <ClCompile Include="kthSmallest.cpp" />
     <ClCompile Include="lowestCommonAncestor.cpp" />
     <ClCompile Include="majorityElement.cpp" />
