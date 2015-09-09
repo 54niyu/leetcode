@@ -17,14 +17,15 @@ private:
 				swap(nums[++wait], nums[i]);
 			}
 		}
-		if (wait == k){
-			return nums[0];
+		if (wait == k-1){
+			return nums[begin];
 		}
-		else if (wait < k){
+		else if (wait < k-1){
 			qSort(nums, k, wait + 1, end);
 		}
 		else{
-			qSort(nums, k, begin + 1, wait);
+			swap(nums[begin], nums[wait]);
+			qSort(nums, k, begin , wait-1);
 		}
 	}
 	//¶ÑÅÅĞò
