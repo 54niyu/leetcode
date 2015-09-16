@@ -8,7 +8,7 @@ public:
 		return qSort(nums, k,0,nums.size()-1);
 	}
 private:
-	//¿ìËÙÅÅĞò	
+	//¿ìËÙÅÅĞò°æ
 	int qSort(vector<int>& nums, int k, int begin, int end){
 		int wait = begin;
 		for (int i = begin+1; i <= end; i++){
@@ -27,7 +27,7 @@ private:
 			qSort(nums, k, begin , wait-1);
 		}
 	}
-	//¶ÑÅÅĞò
+	//¶ÑÅÅĞò°æ
 	int heapSort(vector<int>& nums,int k){
 		int i = nums.size();
 		while (true){
@@ -40,8 +40,7 @@ private:
 	}
 	//¶Ñ½¨Á¢
 	int heap(vector<int>& nums, int length){
-		if (length < 2)
-			return 0;
+
 		int rootNumber = (length- 2) / 2;
 		for (int i = rootNumber; i >= 0; i--){
 			int left = i * 2 + 1;
@@ -74,11 +73,11 @@ private:
 		}
 	}
 };
-int main(){
-	Solution s;
-	vector<int> data = { 222,23,1,233,21,23,45,65,1,96,2,4,5,7};
-	for (int i = 1; i <= data.size(); i++){
-		cout<<s.findKthLargest(data,i)<<endl;
-	}
-	return 0;
-}
+//int main(){
+//	Solution s;
+//	vector<int> data = { 222,23,1,233,21,23,45,65,1,96,2,4,5,7};
+//	for (int i = 1; i <= data.size(); i++){
+//		cout<<s.findKthLargest(data,i)<<endl;
+//	}
+//	return 0;
+//}
