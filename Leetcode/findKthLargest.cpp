@@ -8,8 +8,7 @@ public:
 		return qSort(nums, k,0,nums.size()-1);
 	}
 private:
-	//快速排序
-		
+	//快速排序	
 	int qSort(vector<int>& nums, int k, int begin, int end){
 		int wait = begin;
 		for (int i = begin+1; i <= end; i++){
