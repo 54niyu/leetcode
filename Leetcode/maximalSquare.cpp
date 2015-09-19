@@ -33,18 +33,18 @@ public:
 	}
 };
 
-int main(){
-	
-	vector<char> s1 = { '1', '0', '1', '0', '0', };
-	vector<char> s2 = { '1', '0', '1', '1', '1', };
-	vector<char> s3 = { '1', '0', '1', '1', '1', };
-	vector<char> s4 = { '1', '1', '1', '1', '1', };
-	vector<char> s5 = { '1', '0', '1', '0', '0', };
-	vector<vector<char>> s = {s1,s2,s3,s4,s5};
-	
-
-	Solution ss;
-	cout<<ss.maximalSquare(s);
-
-	return 0;
-}
+//int main(){
+//	
+//	vector<char> s1 = { '1', '0', '1', '0', '0', };
+//	vector<char> s2 = { '1', '0', '1', '1', '1', };
+//	vector<char> s3 = { '1', '0', '1', '1', '1', };
+//	vector<char> s4 = { '1', '1', '1', '1', '1', };
+//	vector<char> s5 = { '1', '0', '1', '0', '0', };
+//	vector<vector<char>> s = {s1,s2,s3,s4,s5};
+//	
+//
+//	Solution ss;
+//	cout<<ss.maximalSquare(s);
+//
+//	return 0;
+//}
