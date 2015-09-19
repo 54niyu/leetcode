@@ -1,7 +1,5 @@
 #include"leetcode.h"
 
-#define ISOK(n) (n<side)
-
 class Solution{
 public:
 	int min(int x, int y, int z){
