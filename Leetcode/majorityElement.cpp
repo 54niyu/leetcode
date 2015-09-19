@@ -32,9 +32,9 @@ public:
 		}
 	}
 };
-int main(){
-	Solution s;
-	vector<int> data = { 1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1, 1, 2, 2, 1, 1, 1, 1, 1, 1, 1, 2, 2, 2, 2, 2, 2, 2, 2, 0, 1, 2, 3, 4, 5, 6, 7, 8 };
-	vector<int> result = s.majorityElement(data);
-	return 0;
-}
+//int main(){
+//	Solution s;
+//	vector<int> data = { 1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1, 1, 2, 2, 1, 1, 1, 1, 1, 1, 1, 2, 2, 2, 2, 2, 2, 2, 2, 0, 1, 2, 3, 4, 5, 6, 7, 8 };
+//	vector<int> result = s.majorityElement(data);
+//	return 0;
+//}
