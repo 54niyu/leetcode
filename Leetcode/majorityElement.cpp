@@ -12,8 +12,7 @@ public:
 		map<int, int> times;
 
 		for (int i = 0; i < nums.size(); i++){
-			map<int, int>::iterator f = times.find(nums[i]);
-			if (f == times.end()){
+			if (times.find(nums[i]) == times.end()){
 				times[nums[i]] = 0;
 			}
 			else{
