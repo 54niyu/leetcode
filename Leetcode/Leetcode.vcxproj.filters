@@ -57,6 +57,9 @@
     <ClCompile Include="findKthLargest.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="containDumplicate.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="leetcode.h">

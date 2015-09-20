@@ -79,6 +79,7 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="calculater.cpp" />
+    <ClCompile Include="containDumplicate.cpp" />
     <ClCompile Include="countCompleteTree.cpp" />
     <ClCompile Include="diffWaysToCompute.cpp" />
     <ClCompile Include="findKthLargest.cpp" />
