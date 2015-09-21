@@ -3,12 +3,21 @@
 class Solution{
 public:
 	bool containsNearbyAlmostDuplicate(vector<int>& nums, int k, int t) {
-		for (int i = 0; i < nums.size(); i++){
-			for (int j = 1; j <= k && (i + j) < nums.size(); j++){
-				if (abs(nums[i + j] - nums[i]) < t)
-					return true;
-			}
-		}
-		return false;
+        if(k==0||nums.size()<2) return false;
+        long long low=0;
+        set<long long> windows;
+        for(int i=0;i<nums.size();i++){
+            if(i-low>k){
+                windows.erase(nums[low]);
+                low++;
+            }
+            
+            auto it=windows.lower_bound((long long)nums[i]-(long long)t);
+            if(it!=windows.end()&&abs((long long)nums[i]-*it)<=(long long)t){
+                return true;
+            }
+            windows.insert(nums[i]);
+        }
+        return false;
 	}
 };
