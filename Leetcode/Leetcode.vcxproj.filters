@@ -21,9 +21,6 @@
     <ClCompile Include="searchMatrix.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
-    <ClCompile Include="timeCompute.cpp">
-      <Filter>源文件</Filter>
-    </ClCompile>
     <ClCompile Include="searchMatrix2.cpp">
       <Filter>源文件</Filter>
     </ClCompile>

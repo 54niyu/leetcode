@@ -25,10 +25,3 @@ public:
 		return count;
 	}
 };
-//int main(){
-//	Solution s;
-//	for (int i = 0; i < 1000; i++){
-//		cout << i<<":"<<s.countDigitOne(i)<<"   ";
-//	}
-//	return 0;
-//}

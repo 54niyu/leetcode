@@ -92,7 +92,6 @@
     <ClCompile Include="regualr.cpp" />
     <ClCompile Include="searchMatrix.cpp" />
     <ClCompile Include="searchMatrix2.cpp" />
-    <ClCompile Include="timeCompute.cpp" />
     <ClCompile Include="treeOrder.cpp" />
   </ItemGroup>
   <ItemGroup>
