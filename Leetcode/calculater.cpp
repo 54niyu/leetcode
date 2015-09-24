@@ -55,9 +55,60 @@ public:
 
 		return num[0];
 	}
+	int calculate2(string s){
+		s = s + '#';
+		stack<char> ope;
+		stack<int> num;
+		char buffer[100];
+		int index = 0;
+		bool isnum = false;
+		for (int i = 0; i < s.size(); i++){
+			if (s[i] >= '0'&&s[i] <= '9'){
+				isnum = true;
+				buffer[index++] = s[i];
+			}
+			else if (s[i] == ' '){
+
+			}
+			else {
+				if (isnum){
+					buffer[index] = '\0';
+					int n = atoi(buffer);
+					index = 0;
+					Push(ope, num, n);
+					isnum = false;
+					i--;
+				}
+				else{
+					if (s[i] != '#')
+						ope.push(s[i]);
+					if (s[i] == ')'){
+						ope.pop();
+						int temp = num.top();
+						num.pop();
+						ope.pop();
+			    		Push(ope, num, temp);
+					}
+				}
+			}
+		}
+		return num.top();
+	}
+	void Push(stack<char> &ope, stack<int> &num, int val){
+		if (!ope.empty()){
+			switch (ope.top()){
+			case '+':{ope.pop(); int temp = num.top(); num.pop(); Push(ope, num, temp + val); }; break;
+			case '-':{ope.pop(); int temp = num.top(); num.pop(); Push(ope, num, temp - val); }; break;
+			default:num.push(val);
+			}
+		}
+		else{
+			num.push(val);
+		}
+	}
 };
-//int main(){
-//	Solution s;
-//	s.calculate(" 3+5 / 2 ");
-//	return 0;
-//}
+int main(){
+	Solution s;
+	cout<<s.calculate2("(6)");
+	return 0;
+}
