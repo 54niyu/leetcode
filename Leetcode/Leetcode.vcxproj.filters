@@ -60,7 +60,7 @@
     <ClCompile Include="regualr.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
-    <ClCompile Include="queueStack.cpp">
+    <ClCompile Include="addAndSearchWord.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
   </ItemGroup>
