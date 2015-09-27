@@ -89,6 +89,8 @@
     <ClCompile Include="majorityElement.cpp" />
     <ClCompile Include="maximalSquare.cpp" />
     <ClCompile Include="numberOfDigitOne.cpp" />
+    <ClCompile Include="numberToWord.cpp" />
+    <ClCompile Include="perfactSquares.cpp" />
     <ClCompile Include="productExceptSelf.cpp" />
     <ClCompile Include="regualr.cpp" />
     <ClCompile Include="searchMatrix.cpp" />

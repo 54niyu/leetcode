@@ -63,6 +63,12 @@
     <ClCompile Include="addAndSearchWord.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="perfactSquares.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="numberToWord.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="leetcode.h">
