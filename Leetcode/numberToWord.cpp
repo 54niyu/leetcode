@@ -54,8 +54,8 @@
 			return word;
 		}
 	};
-int main(){
-	Solution s;
-	cout << pow(2, 32) - 1;
-	s.numberToWords(123);
-}
+//int main(){
+//	Solution s;
+//	cout << pow(2, 32) - 1;
+//	s.numberToWords(123);
+//}

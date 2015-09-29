@@ -88,14 +88,18 @@
     <ClCompile Include="lowestCommonAncestor.cpp" />
     <ClCompile Include="majorityElement.cpp" />
     <ClCompile Include="maximalSquare.cpp" />
+    <ClCompile Include="missingNumber.cpp" />
     <ClCompile Include="numberOfDigitOne.cpp" />
     <ClCompile Include="numberToWord.cpp" />
     <ClCompile Include="perfactSquares.cpp" />
     <ClCompile Include="productExceptSelf.cpp" />
     <ClCompile Include="regualr.cpp" />
+    <ClCompile Include="reverseBits.cpp" />
     <ClCompile Include="searchMatrix.cpp" />
     <ClCompile Include="searchMatrix2.cpp" />
+    <ClCompile Include="singleNumber.cpp" />
     <ClCompile Include="treeOrder.cpp" />
+    <ClCompile Include="unglyII.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="leetcode.h" />

@@ -2,6 +2,7 @@
 #include<string>
 #include<stack>
 #include<hash_map>
+#include<map>
 #include<vector>
 #include<queue>
 #include<set>
