@@ -102,6 +102,9 @@
     <ClCompile Include="addTwoNumber.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="palindromeList.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="leetcode.h">

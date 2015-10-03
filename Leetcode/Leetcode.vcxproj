@@ -95,6 +95,7 @@
     <ClCompile Include="missingNumber.cpp" />
     <ClCompile Include="numberOfDigitOne.cpp" />
     <ClCompile Include="numberToWord.cpp" />
+    <ClCompile Include="palindromeList.cpp" />
     <ClCompile Include="perfactSquares.cpp" />
     <ClCompile Include="productExceptSelf.cpp" />
     <ClCompile Include="regualr.cpp" />
