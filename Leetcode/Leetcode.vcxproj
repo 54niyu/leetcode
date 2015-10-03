@@ -79,12 +79,16 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="addAndSearchWord.cpp" />
+    <ClCompile Include="addTwoNumber.cpp" />
+    <ClCompile Include="bitSet.cpp" />
     <ClCompile Include="calculater.cpp" />
+    <ClCompile Include="combinationNumIII.cpp" />
     <ClCompile Include="containDumplicate.cpp" />
     <ClCompile Include="countCompleteTree.cpp" />
     <ClCompile Include="diffWaysToCompute.cpp" />
     <ClCompile Include="findKthLargest.cpp" />
     <ClCompile Include="kthSmallest.cpp" />
+    <ClCompile Include="lowestCommenAncestor2.cpp" />
     <ClCompile Include="lowestCommonAncestor.cpp" />
     <ClCompile Include="majorityElement.cpp" />
     <ClCompile Include="maximalSquare.cpp" />
@@ -94,10 +98,13 @@
     <ClCompile Include="perfactSquares.cpp" />
     <ClCompile Include="productExceptSelf.cpp" />
     <ClCompile Include="regualr.cpp" />
+    <ClCompile Include="repeatedDNA.cpp" />
     <ClCompile Include="reverseBits.cpp" />
     <ClCompile Include="searchMatrix.cpp" />
     <ClCompile Include="searchMatrix2.cpp" />
+    <ClCompile Include="searchWord.cpp" />
     <ClCompile Include="singleNumber.cpp" />
+    <ClCompile Include="symetricTree.cpp" />
     <ClCompile Include="treeOrder.cpp" />
     <ClCompile Include="unglyII.cpp" />
   </ItemGroup>

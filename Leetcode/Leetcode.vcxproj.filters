@@ -81,6 +81,27 @@
     <ClCompile Include="reverseBits.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="repeatedDNA.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="lowestCommenAncestor2.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="symetricTree.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="bitSet.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="searchWord.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="combinationNumIII.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="addTwoNumber.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="leetcode.h">
