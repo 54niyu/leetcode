@@ -7,7 +7,7 @@ public:
 		for (int i = 0; i < MAX; i++){
 			next[i] = NULL;
 		}
-		isEnd =false;
+		isEnd = false;
 	}
 	Tree* next[MAX];
 	bool isEnd;
@@ -20,12 +20,12 @@ public:
 	void addWord(string word) {
 		if (root == NULL)
 			root = new Tree();
-		
+
 		Tree* ptr = root;
 		for (char item : word){
-	//		cout << item;
-			if (ptr->next[item - 'a']==NULL){
-		//		ptr->isEnd = false;
+			//		cout << item;
+			if (ptr->next[item - 'a'] == NULL){
+				//		ptr->isEnd = false;
 				ptr->next[item - 'a'] = new Tree();
 				ptr = ptr->next[item - 'a'];
 			}
@@ -50,9 +50,9 @@ public:
 		for (; i < word.size(); i++){
 			//			cout << word[i];
 			if (word[i] == '.'){
-				bool res=false;
+				bool res = false;
 				for (int j = 0; j < MAX; j++){
-					res |= search(word.substr(i + 1),ptr->next[j]);
+					res |= search(word.substr(i + 1), ptr->next[j]);
 
 				}
 				if (res)
@@ -62,7 +62,9 @@ public:
 			}
 
 			if (ptr->next[word[i] - 'a'] == NULL){
+			//	ptr = ptr->next[word[i] - 'a'];
 				return false;
+				break;
 			}
 			else{
 				ptr = ptr->next[word[i] - 'a'];
@@ -80,19 +82,16 @@ public:
 //int main(){
 //
 //	 WordDictionary wordDictionary;
-//
 //	 wordDictionary.addWord("a");
-//	 wordDictionary.addWord("aa");
-//	 wordDictionary.addWord("abc");
-//	 wordDictionary.addWord("wor");
-//	 wordDictionary.addWord("worl");
-//	 wordDictionary.addWord("next");
-//	 wordDictionary.addWord("directionary");
-//	 wordDictionary.addWord("world");
-//	// wordDictionary.addWord("a");
+//	 wordDictionary.addWord("a");
+//	 wordDictionary.addWord("dir");
+//	 wordDictionary.addWord("mk");
+//	cout<< wordDictionary.search(".");
+//	cout<< wordDictionary.search("a");
 //	cout<< wordDictionary.search("aa");
-//	cout << wordDictionary.search("w.r");
-//	cout << wordDictionary.search("dir..tonary");
+//	cout << wordDictionary.search("a");
+//	cout << wordDictionary.search(".a");
+//	cout << wordDictionary.search("a.");
 //
 //}
 // Your WordDictionary object will be instantiated and called as such:
