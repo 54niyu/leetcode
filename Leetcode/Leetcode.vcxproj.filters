@@ -63,46 +63,76 @@
     <ClCompile Include="addAndSearchWord.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
-    <ClCompile Include="perfactSquares.cpp">
-      <Filter>源文件</Filter>
-    </ClCompile>
-    <ClCompile Include="numberToWord.cpp">
-      <Filter>源文件</Filter>
-    </ClCompile>
-    <ClCompile Include="missingNumber.cpp">
-      <Filter>源文件</Filter>
-    </ClCompile>
-    <ClCompile Include="unglyII.cpp">
-      <Filter>源文件</Filter>
-    </ClCompile>
-    <ClCompile Include="singleNumber.cpp">
-      <Filter>源文件</Filter>
-    </ClCompile>
-    <ClCompile Include="reverseBits.cpp">
-      <Filter>源文件</Filter>
-    </ClCompile>
-    <ClCompile Include="repeatedDNA.cpp">
-      <Filter>源文件</Filter>
-    </ClCompile>
-    <ClCompile Include="lowestCommenAncestor2.cpp">
-      <Filter>源文件</Filter>
-    </ClCompile>
-    <ClCompile Include="symetricTree.cpp">
+    <ClCompile Include="addTwoNumber.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
     <ClCompile Include="bitSet.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
-    <ClCompile Include="searchWord.cpp">
-      <Filter>源文件</Filter>
-    </ClCompile>
     <ClCompile Include="combinationNumIII.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
-    <ClCompile Include="addTwoNumber.cpp">
+    <ClCompile Include="lowestCommenAncestor2.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="missingNumber.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="numberToWord.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
     <ClCompile Include="palindromeList.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="perfactSquares.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="repeatedDNA.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="reverseBits.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="searchWord.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="singleNumber.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="symetricTree.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="unglyII.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="bestTimeToBuyAndSellStock.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="btLevelOrderTraversal.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="decodeWays.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="dictionaryOrder.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="divideTwoIntegers.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="grayCode.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="minStack.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="multiplyString.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="queueStack.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="searchArea.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
   </ItemGroup>
