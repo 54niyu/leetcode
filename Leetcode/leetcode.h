@@ -5,6 +5,9 @@
 #include<vector>
 #include<queue>
 #include<set>
+#include<cstdlib>
+#include<stdlib.h>
+#include<list>
 
 struct TreeNode{
 	int val;

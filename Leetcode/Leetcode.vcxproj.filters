@@ -63,6 +63,33 @@
     <ClCompile Include="addAndSearchWord.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="searchArea.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="dictionaryOrder.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="grayCode.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="multiplyString.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="btLevelOrderTraversal.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="decodeWays.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="divideTwoIntegers.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="minStack.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="bestTimeToBuyAndSellStock.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="leetcode.h">

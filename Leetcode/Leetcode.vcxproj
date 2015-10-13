@@ -79,18 +79,27 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="addAndSearchWord.cpp" />
+    <ClCompile Include="bestTimeToBuyAndSellStock.cpp" />
+    <ClCompile Include="btLevelOrderTraversal.cpp" />
     <ClCompile Include="calculater.cpp" />
     <ClCompile Include="containDumplicate.cpp" />
     <ClCompile Include="countCompleteTree.cpp" />
+    <ClCompile Include="decodeWays.cpp" />
+    <ClCompile Include="dictionaryOrder.cpp" />
     <ClCompile Include="diffWaysToCompute.cpp" />
+    <ClCompile Include="divideTwoIntegers.cpp" />
     <ClCompile Include="findKthLargest.cpp" />
+    <ClCompile Include="grayCode.cpp" />
     <ClCompile Include="kthSmallest.cpp" />
     <ClCompile Include="lowestCommonAncestor.cpp" />
     <ClCompile Include="majorityElement.cpp" />
     <ClCompile Include="maximalSquare.cpp" />
+    <ClCompile Include="minStack.cpp" />
+    <ClCompile Include="multiplyString.cpp" />
     <ClCompile Include="numberOfDigitOne.cpp" />
     <ClCompile Include="productExceptSelf.cpp" />
     <ClCompile Include="regualr.cpp" />
+    <ClCompile Include="searchArea.cpp" />
     <ClCompile Include="searchMatrix.cpp" />
     <ClCompile Include="searchMatrix2.cpp" />
     <ClCompile Include="treeOrder.cpp" />
