@@ -74,18 +74,18 @@ public:
 	}
 
 };
-int main(){
-//	vector<int> a = { 1 };
-//	vector<int> b = { 9, 9, 9 };
-	ListNode* a = new ListNode(1);
-	ListNode* b= new ListNode(9);
-	ListNode* b1 = new ListNode(9);
-	ListNode* b2= new ListNode(9);
-	ListNode* b3 = new ListNode(9);
-	b->next = b1;
-	b1->next = b2;
-	b2->next = b3;
-	Solution s;
-	s.addTwoNumbers(a, b);
-
-}
+//int main(){
+////	vector<int> a = { 1 };
+////	vector<int> b = { 9, 9, 9 };
+//	ListNode* a = new ListNode(1);
+//	ListNode* b= new ListNode(9);
+//	ListNode* b1 = new ListNode(9);
+//	ListNode* b2= new ListNode(9);
+//	ListNode* b3 = new ListNode(9);
+//	b->next = b1;
+//	b1->next = b2;
+//	b2->next = b3;
+//	Solution s;
+//	s.addTwoNumbers(a, b);
+//
+//}
