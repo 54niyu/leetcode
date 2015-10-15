@@ -85,14 +85,14 @@ public:
 		return data;
 	}
 };
-int main(){
-	Solution s;
-	auto sd=s.crush(0);
-	for (int i = 0; i < sd.size(); i++){
-		for (int j = 0; j < sd[0].size(); j++){
-			printf("%5d ", sd[i][j]);
-		}
-		cout << endl;
-	}
-	return 0;
-}
+//int main(){
+//	Solution s;
+//	auto sd=s.crush(0);
+//	for (int i = 0; i < sd.size(); i++){
+//		for (int j = 0; j < sd[0].size(); j++){
+//			printf("%5d ", sd[i][j]);
+//		}
+//		cout << endl;
+//	}
+//	return 0;
+//}
