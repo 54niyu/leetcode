@@ -37,8 +37,8 @@ public:
 		return profit;
 	}
 };
-int main(){
-	Solution s;
-	vector<int> pri = { 4, 3, 2, 5, 6, 2, 1, 9 };
-	cout<<s.maxProfit(pri);
-}
+//int main(){
+//	Solution s;
+//	vector<int> pri = { 4, 3, 2, 5, 6, 2, 1, 9 };
+//	cout<<s.maxProfit(pri);
+//}

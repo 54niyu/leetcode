@@ -1,13 +1,16 @@
+#include<cstdlib>
+
 #include<iostream>
+#include<sstream>
+
 #include<string>
+
 #include<stack>
 #include<hash_map>
 #include<map>
 #include<vector>
 #include<queue>
 #include<set>
-#include<cstdlib>
-#include<stdlib.h>
 #include<list>
 
 struct TreeNode{
@@ -16,4 +19,10 @@ struct TreeNode{
 	TreeNode *right;
 	TreeNode(int x) :val(x), left(NULL), right(NULL){}
 };
+struct ListNode {
+	int val;
+	ListNode *next;
+	ListNode(int x) : val(x), next(NULL) {}
+};
+
 using namespace std;

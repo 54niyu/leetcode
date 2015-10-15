@@ -7,12 +7,12 @@
 * };
 */
 #include"leetcode.h"
-struct ListNode {
-	int val;
-	ListNode *next;
-	ListNode(int x) : val(x), next(NULL) {}
-
-};
+//struct ListNode {
+//	int val;
+//	ListNode *next;
+//	ListNode(int x) : val(x), next(NULL) {}
+//
+//};
 
 class Solution {
 public:
@@ -52,17 +52,17 @@ public:
 		}
 	}
 };
-int main(){
-	ListNode *a=new ListNode(1);
-	ListNode *a1=new ListNode(2);
-	ListNode *a2=new ListNode(3);
-	ListNode *a3=new ListNode(2);
-	ListNode *a4=new ListNode(1);
-	a->next = a1;
-	a1->next = a2;
-	a2->next = a3;
-	a3->next = a4;
-	Solution s;
-	s.isPalindrome(a);
-	return 0;
-}
+//int main(){
+//	ListNode *a=new ListNode(1);
+//	ListNode *a1=new ListNode(2);
+//	ListNode *a2=new ListNode(3);
+//	ListNode *a3=new ListNode(2);
+//	ListNode *a4=new ListNode(1);
+//	a->next = a1;
+//	a1->next = a2;
+//	a2->next = a3;
+//	a3->next = a4;
+//	Solution s;
+//	s.isPalindrome(a);
+//	return 0;
+//}

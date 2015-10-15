@@ -66,9 +66,6 @@
     <ClCompile Include="addTwoNumber.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
-    <ClCompile Include="bitSet.cpp">
-      <Filter>源文件</Filter>
-    </ClCompile>
     <ClCompile Include="combinationNumIII.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
@@ -133,6 +130,24 @@
       <Filter>源文件</Filter>
     </ClCompile>
     <ClCompile Include="searchArea.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="linkedListCycle.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="implementStackByQueues.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="wordPattern.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="crush.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="subSet.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="pascalTriangle.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
   </ItemGroup>
