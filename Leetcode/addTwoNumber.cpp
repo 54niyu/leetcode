@@ -28,6 +28,7 @@ public:
 				helper->next = new ListNode(sum % 10);
 				helper = helper->next;
 			}
+			//hahahhahahha
 		//	ptr1->val = ptr2->val = sum % 10;
 			add = sum / 10;
 			ptr1 = ptr1->next;
