@@ -81,6 +81,7 @@
     <ClCompile Include="addAndSearchWord.cpp" />
     <ClCompile Include="addTwoNumber.cpp" />
     <ClCompile Include="bestTimeToBuyAndSellStock.cpp" />
+    <ClCompile Include="getMost.cpp" />
     <ClCompile Include="pascalTriangle.cpp" />
     <ClCompile Include="subSet.cpp" />
     <ClCompile Include="btLevelOrderTraversal.cpp" />
@@ -122,6 +123,7 @@
     <ClCompile Include="symetricTree.cpp" />
     <ClCompile Include="treeOrder.cpp" />
     <ClCompile Include="unglyII.cpp" />
+    <ClCompile Include="validNumber.cpp" />
     <ClCompile Include="wordPattern.cpp" />
   </ItemGroup>
   <ItemGroup>
