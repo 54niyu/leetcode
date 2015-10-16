@@ -120,6 +120,7 @@
     <ClCompile Include="searchMatrix2.cpp" />
     <ClCompile Include="searchWord.cpp" />
     <ClCompile Include="singleNumber.cpp" />
+    <ClCompile Include="surroundedRegions.cpp" />
     <ClCompile Include="symetricTree.cpp" />
     <ClCompile Include="treeOrder.cpp" />
     <ClCompile Include="unglyII.cpp" />
