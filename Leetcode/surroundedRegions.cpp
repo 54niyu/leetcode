@@ -26,6 +26,7 @@ public:
 			}
 		}
 	}
+	//广度优先遍历
 	void bfs(vector<vector<char>> &board,int i,int j){
 		queue<Point> Q;
 		Q.push(Point(i, j));
