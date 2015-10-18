@@ -159,6 +159,9 @@
     <ClCompile Include="surroundedRegions.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="combination.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="leetcode.h">

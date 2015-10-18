@@ -81,6 +81,7 @@
     <ClCompile Include="addAndSearchWord.cpp" />
     <ClCompile Include="addTwoNumber.cpp" />
     <ClCompile Include="bestTimeToBuyAndSellStock.cpp" />
+    <ClCompile Include="combination.cpp" />
     <ClCompile Include="getMost.cpp" />
     <ClCompile Include="pascalTriangle.cpp" />
     <ClCompile Include="subSet.cpp" />
