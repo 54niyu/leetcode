@@ -84,6 +84,7 @@
     <ClCompile Include="combination.cpp" />
     <ClCompile Include="getMost.cpp" />
     <ClCompile Include="pascalTriangle.cpp" />
+    <ClCompile Include="pathSumII.cpp" />
     <ClCompile Include="subSet.cpp" />
     <ClCompile Include="btLevelOrderTraversal.cpp" />
     <ClCompile Include="calculater.cpp" />
