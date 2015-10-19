@@ -57,33 +57,33 @@ public:
 	}
 
 };
-int main(){
-	int side = 14;
-	vector<vector<char>> board(side, vector<char>(side,'O'));
-	//for (int i = 0; i < side; i++){
-	//	for (int j = 0; j < side; j++){
-	//		int a = rand() % 2;
-	//		if (a == 1)
-	//			board[i][j] = 'X';
-	//		else
-	//			board[i][j] = 'O';
-	//		cout << board[i][j] << " ";
-	//	}
-	//	cout << "\n";
-	//}
-	Solution s;
-	s.solve(board);
-	cout << "---after modifiled\n";
-	for (int i = 0; i < side; i++){
-		for (int j = 0; j < side; j++){
-//			int a = rand() % 2;
-//			if (a == 1)
-//				board[i][j] = 'X';
-//			else
-//				board[i][j] = 'O';
-			cout << board[i][j] << " ";
-		}
-		cout << "\n";
-	}
-	return 0; 
-}
+//int main(){
+//	int side = 14;
+//	vector<vector<char>> board(side, vector<char>(side,'O'));
+//	//for (int i = 0; i < side; i++){
+//	//	for (int j = 0; j < side; j++){
+//	//		int a = rand() % 2;
+//	//		if (a == 1)
+//	//			board[i][j] = 'X';
+//	//		else
+//	//			board[i][j] = 'O';
+//	//		cout << board[i][j] << " ";
+//	//	}
+//	//	cout << "\n";
+//	//}
+//	Solution s;
+//	s.solve(board);
+//	cout << "---after modifiled\n";
+//	for (int i = 0; i < side; i++){
+//		for (int j = 0; j < side; j++){
+////			int a = rand() % 2;
+////			if (a == 1)
+////				board[i][j] = 'X';
+////			else
+////				board[i][j] = 'O';
+//			cout << board[i][j] << " ";
+//		}
+//		cout << "\n";
+//	}
+//	return 0; 
+//}
