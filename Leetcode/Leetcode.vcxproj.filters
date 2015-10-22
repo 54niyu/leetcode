@@ -13,6 +13,9 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
+    <Filter Include="algorithm">
+      <UniqueIdentifier>{2d3cc083-15a3-4122-b156-f31ed09e7e73}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="diffWaysToCompute.cpp">
@@ -163,6 +166,21 @@
       <Filter>源文件</Filter>
     </ClCompile>
     <ClCompile Include="pathSumII.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="sort.cpp">
+      <Filter>algorithm</Filter>
+    </ClCompile>
+    <ClCompile Include="mergeKSortedLists.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="sortList.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="rotateList.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="rmDuplicatesfromSortedList II.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
   </ItemGroup>
