@@ -33,6 +33,6 @@ public:
 		return save[n];
 	}
 };
-int main(){
-
-}
+//int main(){
+//
+//}
