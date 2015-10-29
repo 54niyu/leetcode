@@ -82,8 +82,10 @@
     <ClCompile Include="addTwoNumber.cpp" />
     <ClCompile Include="bestTimeToBuyAndSellStock.cpp" />
     <ClCompile Include="combination.cpp" />
+    <ClCompile Include="convertListToBST.cpp" />
     <ClCompile Include="copyListWithRandom.cpp" />
     <ClCompile Include="getMost.cpp" />
+    <ClCompile Include="largestNumber.cpp" />
     <ClCompile Include="mergeKSortedLists.cpp" />
     <ClCompile Include="pascalTriangle.cpp" />
     <ClCompile Include="pathSumII.cpp" />

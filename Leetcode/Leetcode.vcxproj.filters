@@ -186,6 +186,12 @@
     <ClCompile Include="copyListWithRandom.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="largestNumber.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="convertListToBST.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="leetcode.h">
