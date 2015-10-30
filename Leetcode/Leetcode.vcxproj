@@ -86,6 +86,7 @@
     <ClCompile Include="copyListWithRandom.cpp" />
     <ClCompile Include="getMost.cpp" />
     <ClCompile Include="largestNumber.cpp" />
+    <ClCompile Include="maximumGap.cpp" />
     <ClCompile Include="mergeKSortedLists.cpp" />
     <ClCompile Include="pascalTriangle.cpp" />
     <ClCompile Include="pathSumII.cpp" />

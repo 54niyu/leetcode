@@ -27,6 +27,6 @@ public:
 
 	}
 };
-int main(){
-	Solution s
-}
+//int main(){
+//	Solution s
+//}
