@@ -27,12 +27,12 @@ public:
 		return (a + b) > (b + a);
 	}
 };
-int main(){
-	Solution s;
-	vector<int> temp;
-	for (int i = 999; i >=100; i--){
-		temp.push_back(i);
-	}
-	s.largestNumber(temp);
-	return 0;
-}
+//int main(){
+//	Solution s;
+//	vector<int> temp;
+//	for (int i = 999; i >=100; i--){
+//		temp.push_back(i);
+//	}
+//	s.largestNumber(temp);
+//	return 0;
+//}

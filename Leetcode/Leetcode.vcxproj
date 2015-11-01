@@ -92,6 +92,7 @@
     <ClCompile Include="pathSumII.cpp" />
     <ClCompile Include="rmDuplicatesfromSortedList II.cpp" />
     <ClCompile Include="rotateList.cpp" />
+    <ClCompile Include="searchForRange.cpp" />
     <ClCompile Include="sort.cpp" />
     <ClCompile Include="sortList.cpp" />
     <ClCompile Include="subSet.cpp" />
