@@ -192,6 +192,9 @@
     <ClCompile Include="searchForRange.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="reverseWordsinString.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="leetcode.h">

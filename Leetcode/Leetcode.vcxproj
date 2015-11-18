@@ -90,6 +90,7 @@
     <ClCompile Include="mergeKSortedLists.cpp" />
     <ClCompile Include="pascalTriangle.cpp" />
     <ClCompile Include="pathSumII.cpp" />
+    <ClCompile Include="reverseWordsinString.cpp" />
     <ClCompile Include="rmDuplicatesfromSortedList II.cpp" />
     <ClCompile Include="rotateList.cpp" />
     <ClCompile Include="searchForRange.cpp" />
