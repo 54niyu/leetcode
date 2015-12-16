@@ -24,12 +24,12 @@ public:
 				if (num > 0){
 					count += num;
 					if (count > maxx)
-						maxx=count;
+						maxx = count;
+				}
 					else{
 						count = 0;
 						isValid = false;
 					}
-				}
 			}
 			else{
 				get(s, 1);
@@ -59,9 +59,9 @@ public:
 
 //p->q p;
 //q->() | (p)
-int main(){
-//	()((()()()()()))
-	Solution s;
-	cout<<s.longestValidParentheses("()((()()()()()))");
-	return 0;
-}
+//int main(){
+////	()((()()()()()))
+//	Solution s;
+//	cout<<s.longestValidParentheses("()((()()()()()))");
+//	return 0;
+//}

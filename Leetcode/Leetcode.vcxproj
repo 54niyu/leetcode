@@ -84,6 +84,7 @@
     <ClCompile Include="combination.cpp" />
     <ClCompile Include="convertListToBST.cpp" />
     <ClCompile Include="copyListWithRandom.cpp" />
+    <ClCompile Include="flattenBinaryTree.cpp" />
     <ClCompile Include="getMost.cpp" />
     <ClCompile Include="implementTrie.cpp" />
     <ClCompile Include="largestNumber.cpp" />
