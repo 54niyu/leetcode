@@ -195,6 +195,15 @@
     <ClCompile Include="reverseWordsinString.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="sumOfRange.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="implementTrie.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="longestValidParentheses.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="leetcode.h">
