@@ -70,11 +70,11 @@ public:
 		return root;
 	}
 };
-int main(){
-
-	tree Tree;
-	TreeNode* tem=Tree.initTree("[1,2,5,3,4,6]");
-	Solution s;
-	s.flatten(tem);
-	return 0;
-}
+//int main(){
+//
+//	tree Tree;
+//	TreeNode* tem=Tree.initTree("[1,2,5,3,4,6]");
+//	Solution s;
+//	s.flatten(tem);
+//	return 0;
+//}

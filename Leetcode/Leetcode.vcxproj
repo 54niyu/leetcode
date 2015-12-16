@@ -81,6 +81,7 @@
     <ClCompile Include="addAndSearchWord.cpp" />
     <ClCompile Include="addTwoNumber.cpp" />
     <ClCompile Include="bestTimeToBuyAndSellStock.cpp" />
+    <ClCompile Include="buildTree.cpp" />
     <ClCompile Include="combination.cpp" />
     <ClCompile Include="convertListToBST.cpp" />
     <ClCompile Include="copyListWithRandom.cpp" />
