@@ -81,12 +81,14 @@
     <ClCompile Include="addAndSearchWord.cpp" />
     <ClCompile Include="addTwoNumber.cpp" />
     <ClCompile Include="bestTimeToBuyAndSellStock.cpp" />
+    <ClCompile Include="binaryTreeRightSideView.cpp" />
     <ClCompile Include="buildTree.cpp" />
     <ClCompile Include="combination.cpp" />
     <ClCompile Include="convertListToBST.cpp" />
     <ClCompile Include="copyListWithRandom.cpp" />
     <ClCompile Include="flattenBinaryTree.cpp" />
     <ClCompile Include="getMost.cpp" />
+    <ClCompile Include="groupAnagram.cpp" />
     <ClCompile Include="implementTrie.cpp" />
     <ClCompile Include="largestNumber.cpp" />
     <ClCompile Include="longestValidParentheses.cpp" />
@@ -94,6 +96,7 @@
     <ClCompile Include="mergeKSortedLists.cpp" />
     <ClCompile Include="pascalTriangle.cpp" />
     <ClCompile Include="pathSumII.cpp" />
+    <ClCompile Include="rangeSumQuery2D.cpp" />
     <ClCompile Include="reverseWordsinString.cpp" />
     <ClCompile Include="rmDuplicatesfromSortedList II.cpp" />
     <ClCompile Include="rotateList.cpp" />

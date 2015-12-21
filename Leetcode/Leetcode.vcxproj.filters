@@ -213,6 +213,15 @@
     <ClCompile Include="zigzagLevelOrder.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="binaryTreeRightSideView.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="rangeSumQuery2D.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="groupAnagram.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="leetcode.h">
