@@ -17,10 +17,3 @@ public:
 	}
 	vector<vector<int>> _matrix;
 };
-int main(){
-
-	vector<vector<int>> s = {
-		{ 3, 0, 1, 4, 2 }, { 5, 6, 3, 2, 1 }, { 1, 2, 0, 1, 5 }, { 4, 1, 0, 1, 7 }, { 1, 0, 3, 0, 5 } };
-	NumMatrix num(s);
-	cout<<num.sumRegion(2,1,4,3);
-}

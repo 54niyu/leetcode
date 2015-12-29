@@ -81,6 +81,8 @@
     <ClCompile Include="addAndSearchWord.cpp" />
     <ClCompile Include="addTwoNumber.cpp" />
     <ClCompile Include="bestTimeToBuyAndSellStock.cpp" />
+    <ClCompile Include="bestTimeToBuyAndSellStock1.cpp" />
+    <ClCompile Include="bestTimeToBuyAndSellStockWithCooldow.cpp" />
     <ClCompile Include="binaryTreeRightSideView.cpp" />
     <ClCompile Include="buildTree.cpp" />
     <ClCompile Include="combination.cpp" />
@@ -90,6 +92,7 @@
     <ClCompile Include="getMost.cpp" />
     <ClCompile Include="groupAnagram.cpp" />
     <ClCompile Include="implementTrie.cpp" />
+    <ClCompile Include="jumpGame.cpp" />
     <ClCompile Include="largestNumber.cpp" />
     <ClCompile Include="longestValidParentheses.cpp" />
     <ClCompile Include="maximumGap.cpp" />

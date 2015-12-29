@@ -222,6 +222,15 @@
     <ClCompile Include="groupAnagram.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="jumpGame.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="bestTimeToBuyAndSellStock1.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="bestTimeToBuyAndSellStockWithCooldow.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="leetcode.h">
