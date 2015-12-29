@@ -97,8 +97,10 @@
     <ClCompile Include="longestValidParentheses.cpp" />
     <ClCompile Include="maximumGap.cpp" />
     <ClCompile Include="mergeKSortedLists.cpp" />
+    <ClCompile Include="NQueen.cpp" />
     <ClCompile Include="pascalTriangle.cpp" />
     <ClCompile Include="pathSumII.cpp" />
+    <ClCompile Include="permutations.cpp" />
     <ClCompile Include="rangeSumQuery2D.cpp" />
     <ClCompile Include="reverseWordsinString.cpp" />
     <ClCompile Include="rmDuplicatesfromSortedList II.cpp" />

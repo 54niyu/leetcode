@@ -231,6 +231,12 @@
     <ClCompile Include="bestTimeToBuyAndSellStockWithCooldow.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="NQueen.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="permutations.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="leetcode.h">
