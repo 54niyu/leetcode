@@ -237,6 +237,12 @@
     <ClCompile Include="permutations.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="spiralMatrix.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="getPermutation.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="leetcode.h">

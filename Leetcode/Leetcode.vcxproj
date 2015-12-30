@@ -90,6 +90,7 @@
     <ClCompile Include="copyListWithRandom.cpp" />
     <ClCompile Include="flattenBinaryTree.cpp" />
     <ClCompile Include="getMost.cpp" />
+    <ClCompile Include="getPermutation.cpp" />
     <ClCompile Include="groupAnagram.cpp" />
     <ClCompile Include="implementTrie.cpp" />
     <ClCompile Include="jumpGame.cpp" />
@@ -107,6 +108,7 @@
     <ClCompile Include="rotateList.cpp" />
     <ClCompile Include="searchForRange.cpp" />
     <ClCompile Include="sortList.cpp" />
+    <ClCompile Include="spiralMatrix.cpp" />
     <ClCompile Include="subSet.cpp" />
     <ClCompile Include="btLevelOrderTraversal.cpp" />
     <ClCompile Include="calculater.cpp" />
