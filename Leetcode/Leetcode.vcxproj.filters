@@ -243,6 +243,21 @@
     <ClCompile Include="getPermutation.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="minimumHeightTrees.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="numberOfIsland.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="longestConsecutiveSeq.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="reconstructItineray.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="longestIncreasingPathInMatrix.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="leetcode.h">
