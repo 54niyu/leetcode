@@ -82,6 +82,25 @@ void inOrder(TreeNode *root){
 	} while (!s.empty());
 
 }
+void inorder(TreeNode* root){
+
+	stack<TreeNode*> st;
+	while (!st.empty() || root != nullptr){
+		if (root != nullptr){
+			st.push(root);
+			root = root->left;
+		}
+		else{
+			if (!st.empty()){
+				root = st.top();
+				cout << root->val << " ";
+				st.pop();
+				root = root->right;
+			}
+		}
+	}
+
+}
 //∫Û–Ú±È¿˙
 void postOrder(TreeNode* root){
 	cout << "-----postOrder search-----\n";

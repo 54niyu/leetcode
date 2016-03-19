@@ -152,6 +152,7 @@
     <ClCompile Include="searchWord.cpp" />
     <ClCompile Include="singleNumber.cpp" />
     <ClCompile Include="sumOfRange.cpp" />
+    <ClCompile Include="sumRootToLeafsNumber.cpp" />
     <ClCompile Include="surroundedRegions.cpp" />
     <ClCompile Include="symetricTree.cpp" />
     <ClCompile Include="treeOrder.cpp" />
