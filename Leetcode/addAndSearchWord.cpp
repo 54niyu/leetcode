@@ -79,21 +79,21 @@ public:
 	Tree *root = NULL;
 };
 
-//int main(){
-//
-//	 WordDictionary wordDictionary;
-//	 wordDictionary.addWord("a");
-//	 wordDictionary.addWord("a");
-//	 wordDictionary.addWord("dir");
-//	 wordDictionary.addWord("mk");
-//	cout<< wordDictionary.search(".");
-//	cout<< wordDictionary.search("a");
-//	cout<< wordDictionary.search("aa");
-//	cout << wordDictionary.search("a");
-//	cout << wordDictionary.search(".a");
-//	cout << wordDictionary.search("a.");
-//
-//}
+int main(){
+
+	 WordDictionary wordDictionary;
+	 wordDictionary.addWord("a");
+	 wordDictionary.addWord("a");
+	 wordDictionary.addWord("dir");
+	 wordDictionary.addWord("mk");
+	cout<< wordDictionary.search(".");
+	cout<< wordDictionary.search("a");
+	cout<< wordDictionary.search("aa");
+	cout << wordDictionary.search("a");
+	cout << wordDictionary.search(".a");
+	cout << wordDictionary.search("a.");
+
+}
 // Your WordDictionary object will be instantiated and called as such:
 // WordDictionary wordDictionary;
 // wordDictionary.addWord("word");

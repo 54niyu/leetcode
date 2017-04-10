@@ -53,11 +53,11 @@ public:
 		return res;
 	}
 };
-//int main(){
-//	Solution s;
-//	tree  tr;
-//	TreeNode* root = tr.initTree("[1,2,3,4,5,6,7,8,9,10]");
-//	s.zigzagLevelOrder(root);
-//
-//	return 0;
-//}
+int main(){
+	Solution s;
+	tree  tr;
+	TreeNode* root = tr.initTree("[1,2,3,4,5,6,7,8,9,10]");
+	vector<vector<int>> a = s.zigzagLevelOrder(root);
+
+	return 0;
+}
